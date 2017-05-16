@@ -13,11 +13,11 @@ $.ajax({
   success: onSuccess,
 });
 
-$.ajax({
-  method: "GET",
-  url: "https://www.reddit.com/r/developer/.json",
-  success: onSuccess,
-});
+// $.ajax({
+//   method: "GET",
+//   url: "https://www.reddit.com/r/developer/.json",
+//   success: onSuccess,
+// });
 
 
 function onSuccess(json) {
